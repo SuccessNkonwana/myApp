@@ -1,0 +1,106 @@
+body{
+    // 
+    text-align: center;
+    height: 1000px;
+        background-image: url(home.jpg);
+        color: rgb(40, 126, 207);
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.main {
+    height: 100%;
+//     background-image: url(tree.png);
+//     color: rgb(40, 126, 207);
+//   /* Center and scale the image nicely */
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+}
+.top{
+    padding-left: 9%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 25%;
+    
+//     background-image: url(me.jpg);
+//     color: rgb(40, 126, 207);
+//   /* Center and scale the image nicely */
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+img {
+    border-radius: 50%;
+  }
+  }
+  .shop {
+    width: 25%;
+    
+    background-image: url(shop.jpg);
+    color: rgb(40, 126, 207);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .code {
+    width: 25%;
+    
+    background-image: url(code.png);
+    color: rgb(40, 126, 207);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .right {
+    width: 75%;
+  }
+  .right img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  .right2 {
+    width: 25%;
+  }
+  .senta {
+    width: 50%;
+
+    background-image: url(home.jpg);
+    color:#fff;     
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .senta2 {
+    width: 50%;
+
+    //background-image: url(home.jpg);
+    color: rgb(40, 126, 207);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

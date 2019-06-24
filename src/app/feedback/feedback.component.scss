@@ -1,3 +1,42 @@
+body{
+    height: 100%;
+    top: 0;
+    background-image:url(feedbck.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .main{
     margin-left: 9%;
+    //text-align: center;
+    
 }
+form{
+    //text-align: center;
+    //align:center;
+    border-radius: 15px 50px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 650px;
+    //height: 500px;
+    color: #fff;
+    margin-left: 35%;
+    h1{
+        text-align: center;
+    }
+    
+  }
+  textarea{
+    //border-radius: 25px;
+    border: 2px solid #73AD21;
+    width: 70%;
+    height: 10%;
+    font-size: 50px;
+}
+//   input{
+//       //border-radius: 25px;
+//       border: 2px solid #73AD21;
+//       width: 70%;
+//       height: 10%;
+//       font-size: 50px;
+//   }

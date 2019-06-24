@@ -1,106 +1,63 @@
 body{
     // 
     text-align: center;
-    height: 1000px;
+    height: auto;
         background-image: url(home.jpg);
-        color: rgb(40, 126, 207);
+        color: #fff;
       /* Center and scale the image nicely */
       background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+      // background-repeat: no-repeat;
+      // background-size: cover;
 }
 .main {
-    height: 100%;
-//     background-image: url(tree.png);
-//     color: rgb(40, 126, 207);
-//   /* Center and scale the image nicely */
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
+    height: auto;
+
 }
 .top{
     padding-left: 9%;
 }
-
-* {
-    box-sizing: border-box;
-  }
+.first{
   
-  /* Create two unequal columns that floats next to each other */
-  .column {
-    float: left;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
+  padding-top: 10%;
   
-  .left {
-    width: 25%;
-    
-//     background-image: url(me.jpg);
-//     color: rgb(40, 126, 207);
-//   /* Center and scale the image nicely */
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-img {
-    border-radius: 50%;
-  }
-  }
-  .shop {
-    width: 25%;
-    
-    background-image: url(shop.jpg);
-    color: rgb(40, 126, 207);
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
-  .code {
-    width: 25%;
-    
-    background-image: url(code.png);
-    color: rgb(40, 126, 207);
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
-  .right {
-    width: 75%;
-  }
-  .right img{
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-  }
-  .right2 {
-    width: 25%;
-  }
-  .senta {
-    width: 50%;
+}
 
-    background-image: url(home.jpg);
-    color:#fff;     
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
-  .senta2 {
-    width: 50%;
+.sec{
+   background-image: linear-gradient(to right top, #070707, #111011, #242723, #303332, #565c4a);
+ 
+  height: 210px;
+ //background-image: linear-gradient(to right,#e2d8cd,#e7b1c5);
+  margin-left: 30%; 
+  color:#fff; 
+  width: 30%;
+ 
+}
 
-    //background-image: url(home.jpg);
-    color: rgb(40, 126, 207);
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
+.thd{
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+      background-image: linear-gradient(to right,#e2d8cd,#e7b1c5);
+     //background-image: linear-gradient(to right top, #070707, #111011, #242723, #303332, #565c4a);
+ height: 200px;
+ 
+ color:#fff; 
+ width: 100%;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+#circle-shape-example { 
+  font-family: Open Sans, sans-serif; 
+  margin: 2rem; 
+}
+#circle-shape-example p { 
+  line-height: 1.8; 
+}
+#circle-shape-example .curve { 
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:2rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+}
